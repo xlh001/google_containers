@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-docker login -u zhangguanzhang -p ${DOCKER_PASS}
+docker login -u 2402324010@qq.com -p ${DOCKER_PASS}
 
 cd $HOME
 mkdir -p temp
@@ -10,8 +10,8 @@ cp $HOME/sync/bolt.db .
 ls -lh
 
 cat>Dockerfile<<EOF
-FROM zhangguanzhang/alpine
+FROM xlh001/alpine
 COPY bolt.db /
 EOF
-docker build -t zhangguanzhang/google_containers_db .
-docker push zhangguanzhang/google_containers_db
+docker build -t xlh001/google_containers_db .
+docker push xlh001/google_containers_db
