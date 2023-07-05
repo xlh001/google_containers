@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-docker login -u 2402324010@qq.com -p ${DOCKER_PASS}
+docker login -u xlh001 -p ${DOCKER_PASS}
 
 cd $HOME
 mkdir -p temp
