@@ -52,7 +52,7 @@ jobs:
           --img-timeout ${IMG_TMOUT:=10m} \
           --live-interval ${LIVE:=9m20s}  \
           --login-retry ${LOGIN_RETRY:=8} \
-          --debug=${DEBUG:=true}
+          --debug=${DEBUG:=fales}
     - name: after_success
       run: |
         bash .github/scripts/ci-after.sh
