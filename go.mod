@@ -8,7 +8,7 @@ replace github.com/etcd-io/bbolt v1.3.5 => go.etcd.io/bbolt v1.3.5
 require (
 	github.com/containerd/containerd v1.6.26 // indirect
 	github.com/containers/image/v5 v5.5.1
-	github.com/containers/storage v1.23.0 // indirect
+	github.com/containers/storage v1.28.1 // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
 	github.com/etcd-io/bbolt v1.3.5
 	github.com/json-iterator/go v1.1.12
