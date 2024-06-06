@@ -9,10 +9,8 @@ require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/containers/image/v5 v5.5.1
-	github.com/containers/ocicrypt v1.1.3 // indirect
-	github.com/containers/storage v1.23.0 // indirect
-	github.com/docker/docker v24.0.9+incompatible
-	github.com/elazarl/goproxy v0.0.0-20180725130230-947c36da3153 // indirect
+	github.com/containers/storage v1.28.1 // indirect
+	github.com/docker/docker v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
 	github.com/etcd-io/bbolt v1.3.5
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
