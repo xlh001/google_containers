@@ -12,11 +12,9 @@ require (
 	github.com/containers/storage v1.28.1 // indirect
 	github.com/docker/docker v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
 	github.com/etcd-io/bbolt v1.3.5
-	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/json-iterator/go v1.1.12
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/moby/term v0.0.0-20210610120745-9d4ed1856297 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
 	github.com/panjf2000/ants/v2 v2.4.1
 	github.com/parnurzeal/gorequest v0.2.16
@@ -29,9 +27,8 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.8.4 // indirect
 	go.etcd.io/bbolt v1.3.7
-	golang.org/x/net v0.17.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	google.golang.org/grpc v1.58.3 // indirect
-	gotest.tools/v3 v3.5.0 // indirect
 	//go.etcd.io/bbolt v1.3.5
 	moul.io/http2curl v1.0.0 // indirect
 )
