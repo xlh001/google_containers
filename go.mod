@@ -6,10 +6,12 @@ go 1.14
 replace github.com/etcd-io/bbolt v1.3.5 => go.etcd.io/bbolt v1.3.5
 
 require (
+	github.com/containerd/log v0.1.0 // indirect
 	github.com/containers/image/v5 v5.29.3
-	github.com/docker/docker v24.0.7+incompatible
+	github.com/docker/docker v26.1.4+incompatible
 	github.com/etcd-io/bbolt v1.3.5
 	github.com/json-iterator/go v1.1.12
+	github.com/moby/docker-image-spec v1.3.1 // indirect
 	github.com/opencontainers/image-spec v1.1.0-rc5
 	github.com/panjf2000/ants/v2 v2.4.1
 	github.com/parnurzeal/gorequest v0.2.16
