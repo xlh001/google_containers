@@ -6,29 +6,19 @@ go 1.14
 replace github.com/etcd-io/bbolt v1.3.5 => go.etcd.io/bbolt v1.3.5
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
-	github.com/Microsoft/go-winio v0.5.2 // indirect
-	github.com/containers/image/v5 v5.5.1
-	github.com/containers/storage v1.28.1 // indirect
-	github.com/docker/docker v17.12.0-ce-rc1.0.20200618181300-9dc6525e6118+incompatible
+	github.com/containers/image/v5 v5.29.3
+	github.com/docker/docker v24.0.7+incompatible
 	github.com/etcd-io/bbolt v1.3.5
-	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/json-iterator/go v1.1.12
-	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b
+	github.com/opencontainers/image-spec v1.1.0-rc5
 	github.com/panjf2000/ants/v2 v2.4.1
 	github.com/parnurzeal/gorequest v0.2.16
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.11.1 // indirect
-	github.com/prometheus/common v0.30.0 // indirect
-	github.com/prometheus/procfs v0.7.3 // indirect
 	github.com/sirupsen/logrus v1.9.3
-	github.com/spf13/cobra v1.1.3
+	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.4 // indirect
-	go.etcd.io/bbolt v1.3.7
+	go.etcd.io/bbolt v1.3.8
 	golang.org/x/net v0.23.0 // indirect
-	google.golang.org/grpc v1.58.3 // indirect
 	//go.etcd.io/bbolt v1.3.5
 	moul.io/http2curl v1.0.0 // indirect
 )
